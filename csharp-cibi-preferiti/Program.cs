@@ -8,6 +8,8 @@ namespace csharp_cibi_preferiti
         {   
             //Array
             string[] cibiPreferiti = { "Pizza", "Frittura di pesce", "Foresta Nera", "Gelato", "Lasagna", "Ramen", "Mela", "Arancia" };
+            
+            //variabili d'intermedio
             int intermedio = cibiPreferiti.Length / 2;
             int intermedioPari = cibiPreferiti.Length / 2 - 1;
             Console.WriteLine($"Lunghezza array: {cibiPreferiti.Length}");
