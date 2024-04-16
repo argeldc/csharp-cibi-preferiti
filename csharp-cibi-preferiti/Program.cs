@@ -5,7 +5,8 @@ namespace csharp_cibi_preferiti
     internal class Program
     {
         static void Main(string[] args)
-        {
+        {   
+            //Array
             string[] cibiPreferiti = { "Pizza", "Frittura di pesce", "Foresta Nera", "Gelato", "Lasagna", "Ramen", "Mela", "Arancia" };
             int intermedio = cibiPreferiti.Length / 2;
             int intermedioPari = cibiPreferiti.Length / 2 - 1;
